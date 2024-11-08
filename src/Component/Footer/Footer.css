@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Responsive Section */
+@media (min-width:1200px){
+    .contain-Footer{
+        max-width: 1270px;
+        padding: 0 35px;
+    }
+}
+@media (min-width:1024px){
+    .contain-Footer{
+        max-width: 1024px;
+        padding: 0 35px;
+    }
+}
+@media (max-width:767px){
+    .contain-Footer{
+        max-width: 767px;
+        padding: 0 35px;
+    }
+    .contain-Footer .footer-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer-flex > *{
+        padding: 5px !important;
+    }
+    .copyright{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+/* Responsive Section ends here */
+
+.contain-Footer{
+    max-width: 1140px;
+    padding: 80px 0px 50px 0;
+}
+.footer-flex .text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #C0C0C0;
+    transition: .2s;
+}
+.footer-flex .text:hover{
+    color: white;
+}
+.footer-add .text-wrap{
+    max-width: 245px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-flex > *{
+    padding: 20px;
+}
+.footer-add .footer-list{
+    display: inline-flex;
+    gap: 20px;
+}
+.footer-list li{
+    cursor: pointer;
+    border: none;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    padding-bottom: 25px;
+}
+.copyright .copy-one{
+    font-size: 16px;
+    color: whitesmoke;
+}
+.footer{
+    background-color: #000000;
+}

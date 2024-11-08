@@ -1,0 +1,135 @@
+.cartitems{
+    margin: 80px 100px;
+}
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.ci-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ci-format{
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+.ci-remove-icon{
+    cursor: pointer;
+}
+.ci-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #ffff;
+}
+.ci-down{
+    display: flex;
+    margin-block: 90px;
+}
+.ci-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.ci-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.ci-total-button{
+    width: 262px;
+    height: 58px;
+    background: #ff5a5a;
+    border-radius: 5px;
+    color: white;
+    font: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.ci-total-button:hover{
+    background: white;
+    color: #ff5a5a;
+}
+.ci-promocode{
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ci-promocode p{
+    color: #454545;
+}
+.ci-promobox{
+    width: 480px;
+    margin-top: 15px;
+    padding-block: 5px;
+    height: 68px;
+    background: #eaeaea;
+}
+.ci-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    width: 330px;
+    height: 50px;
+}
+.ci-promobox button{
+    width: 150px;
+    height: 58px;
+    font-size: 1rem;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.ci-promobox button:hover{
+    background: white;
+    color: black;
+}
+ /* styling the empty cart page */
+ .cart-empty{
+    color: #454545;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.cart-empty h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.img-cart{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+}
+.cart-empty button{
+    width: 180px;
+    height: 58px;
+    padding: 10px;
+    background: #563725;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ .cart-empty button:hover{
+    background: whitesmoke;
+    color: black;
+}

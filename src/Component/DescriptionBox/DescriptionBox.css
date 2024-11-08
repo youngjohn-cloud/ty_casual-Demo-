@@ -1,0 +1,28 @@
+
+.dbox{
+    margin-block: 50px;
+}
+.dbox-navigator{
+    display: flex;
+}
+.dbox-nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 70px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #d0d0d0;
+}
+.Fade{
+    background: #fBfBfB;
+    color: #555;
+}
+.dbox-descroption{
+    display: grid;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+}

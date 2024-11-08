@@ -1,0 +1,85 @@
+
+.slider{
+    height: 100vh;
+    position: relative;
+}
+.slider .list .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .3s;
+} 
+.slider .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.slider .list .item .bg-content{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    z-index: 1;
+}
+.slider .list .item .bg-content h5{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.45em;
+    letter-spacing: 0.71px;
+    color: white;
+}
+.slider .list .item .bg-content h2{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.45em;
+    letter-spacing: 5px;
+    color: white;
+}
+.bg-content button{
+    padding: 15px 30px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+.bg-content button:hover{
+    background: white;
+    color: black;
+}
+
+/* to show content in the slider */
+.slider .list .active{
+    opacity: 1;
+    z-index: 10;
+}
+@keyframes showContent {
+    to{
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+.slider .list .item.active h5,
+.slider .list .item.active h2,
+.slider .list .item.active button{
+    transform: translateY(30px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s .7s ease-in-out 1 forwards;
+}
+.slider .list .item.active h2{
+    animation-delay: 1s;
+}
+.slider .list .item.active button{
+    animation-duration: 200ms;
+}
+
+

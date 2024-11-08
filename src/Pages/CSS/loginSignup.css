@@ -1,0 +1,94 @@
+.login-container{
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: gray;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+    width: 100%;
+}
+.login-header h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #3c009d;
+}
+.login-header .underline{
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 10px;
+}
+.login-input{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 470px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+.input .login-icon{
+    margin:  0px 20px;
+}
+.input input{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.forgot-password{
+    text-transform: capitalize;
+    padding-left: 62px;
+    font-size: 1.09rem;
+    color: #f0f8ff;
+    margin-top: 18px;
+}
+.forgot-password span{
+    color: #3c009d;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 48px;
+}
+.submit-container button{
+    background: transparent;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: #3c009d;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}

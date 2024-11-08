@@ -1,0 +1,176 @@
+.sect-checkout{
+    margin-block: 100px;
+}
+.small-container{
+    max-width: 1200px;
+    padding-inline: 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+.checkout{
+    padding-inline: 15px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -18px;
+}
+.checkout h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.bill-Detail{
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+    padding-inline: 18px;
+    width: 100%;
+}
+.form-detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -10px;
+}
+.form-detail .two-row{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.form-detail .one-input{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+input{
+    width: 100%;
+    padding: 3px 18px;
+    min-height: 45px;
+    outline: none;
+    background: white;
+    border: 0.66px solid #d2d2d2;
+    border-radius: 5px;
+    color: #563725;
+    font-family: 'Jost';
+    line-height: 37px;
+}
+.form-spacing select{
+    width: 100%;
+    padding: 3px 18px;
+    min-height: 45px;
+    outline: none;
+    background: white;
+    border: 0.66px solid #d2d2d2;
+    border-radius: 5px;
+    color: #563725;
+    line-height: 37px;
+}
+.form-spacing label{
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 7px;
+    font-family: 'Jost';
+    line-height: 22px;
+}
+.form-spacing{
+    padding-inline: 10px;
+    margin-bottom: 21px;
+}
+
+.col-order{
+    flex: 0 0 41.67%;
+    max-width: 41.67%;
+    width: 100%;
+}
+.order-summary{
+    padding-inline: 18px;
+}
+.order-summary table{
+    width: 100%;
+}
+.cart-items{
+    display: -webkit-flex;
+    align-items: center;
+    border-top: 1px solid #f1e8e8;
+    padding-block: 12px;
+}
+.product-wrapper{
+    display: flex;
+    align-items: center;
+}
+.product-name{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.product-quantity{
+    color: rgb(155, 155, 155);
+    margin-left: 3px;
+    text-transform: lowercase;
+}
+.product-info{
+    flex-grow: 1;
+    padding-right: 5px;
+}
+.product-total{
+    min-width: 70px;
+    flex-shrink: 0;
+}
+tbody{
+    display: block;
+}
+.cartTotal{
+    color: #563725;
+    font-weight: 500;
+    font-family: 'Jost';
+    padding-left: 5px;
+}
+.CartTotal-value{
+    font-weight: 500;
+    font-size: 24px;
+    color: #563725;
+    font-family: 'Jost';
+}
+.payment-heading{
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+.title-name{
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #563725;
+    flex-grow: 1;
+}
+.payment-icon{
+    max-width: 40%;
+    height: 49px;
+}
+.payment-wrap{
+    color: #563725;
+    background: white;
+    border: 0.8px solid #563725;
+}
+.payment-pic{
+    display: -webkit-flex;
+    align-items: center;
+    border-top: 1px solid #f1e8e8;
+    padding: 5px 10px;
+}
+.payment_method{
+    font-family: 'Jost';
+    color: #563725;
+    font-weight: 400;
+    font-size: 17px;
+    padding-block: 10px;
+}
+.place-order{
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #f1e8e8;
+}
+.order-button{
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}

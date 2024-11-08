@@ -1,0 +1,30 @@
+
+.relatedp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.relatedp h1{
+    color: #171717;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.relatedp hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 6px;
+    background: #252525; 
+}
+.relatedp-item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.relatedp-item img{
+    padding: 8px;
+    aspect-ratio: 1 / 1.4;
+    border-radius: 5px;
+}

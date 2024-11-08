@@ -1,0 +1,113 @@
+
+.productdisplay{
+    display: flex;
+    align-items: center;
+}
+.pd-left{
+    display: flex;
+    gap: 1.3rem;
+}
+.pd-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pd-img-list {
+    height: 130px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.pd-img-list img{
+    height: 100%;
+}
+.pd-main-img{
+    height: 600px;
+}
+.pd-right-desc{
+    max-width: 600px;
+}
+.pd-right{
+    display: grid;
+    margin: auto 70px;
+}
+.pd-right h1{
+    margin-top: 20px;
+    font-family: 'Jost';
+    font-size: 2rem;
+    color: #563725;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+.pd-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 1rem;
+    gap: 8px;
+}
+.pd-right-star p{
+    padding: 0;
+    margin: 0;
+}
+.pd-right-price{
+    display: flex;
+    margin: 25px 0px;
+    gap: 30px;
+    font-size: 1.7rem;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+/* Dropdown select size */
+.variation{
+    margin-block: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.variation-label{
+    font-family: 'Jost';
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #563725;
+}
+.dropdownSelect{
+    margin-right: 0;
+    background-position: center right 15px;
+    padding: 3px 20px 3px 18px;
+}
+select{
+    display: inline-flex;
+    font-family: 'Jost';
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0.667px solid rgb(89, 59, 41);
+    outline: none;
+    background: white;
+    color: #563725;
+    transition: 0.3s;
+}
+.pd-right button{
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 30px;
+    transition: .3s;
+    border-radius: 5px;
+}
+.pd-right button:hover{
+    background-color: white;
+    color: #ff4141;
+}
+.pd-right-category{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.pd-right-category span{
+    font-weight: 600;
+}

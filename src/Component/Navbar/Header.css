@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-clr:#2e2d2d;
+    --seocnday-dark-clr: #53d753;
+    --font-small: 0.5em;
+    --font-medium: 1.9em;
+    --font-weight-small: 500;
+    --font-weight-medium: 600;
+    --font-family-a: "Roboto", sans-serif;
+    --font-size-a: 0.95rem;
+    --text-align-center: center;
+    --gap-a: 1.6em;
+}
+ .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+ }
+ .header *{
+    flex: 1 0 1;
+ }
+ .header .navlist{
+    display: flex;
+ }
+ .header .navlist .nav-menu{
+    display: flex;
+    gap: var(--gap-a);
+    padding: 0;
+ }
+ .header .navlist ul.nav-menu li {
+    text-transform: uppercase;
+    font-size: var(--font-size-a);
+    font-weight: 500;
+    font-family: var(--font-family-a);
+    cursor: pointer;
+ }
+ .header .navlist .nav-menu li:hover{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    transition: 0.8ms;
+ }
+ .header .logo{
+    width: 100px;
+ }
+
+ /* styling my icons  */
+ .a-icon{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: black;
+ }
+ .a-cart{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: black;
+ }
+ .cart-count{
+   width: 20px;
+   height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: -35px 0 0 -45px;
+   font-size: 0.80rem;
+   font-weight: bold;
+   border-radius: 2rem;
+   background: red;
+   color: white;
+ }
+ /* Icons */
+
+ .header .icons-head{
+    display: flex;
+    gap: var(--gap-a);
+    align-items: center;
+    justify-content: center;
+ }
+ .icons-head button{
+    padding-inline: 1.5rem;
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(193, 165, 6);
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ .ham{
+   display: none;
+   color: blue;
+   font-size: 1.5rem;
+ }
